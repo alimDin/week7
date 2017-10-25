@@ -3,7 +3,7 @@
 
 echo "<h1>PDO!</h1>";
 $username = 'ad432';
-$password = 'qhDUhaQM';
+$password = 'changedforseciurity';
 $hostname = 'sql.njit.edu';
 
 $dsn = "mysql:host=$hostname;dbname=$username";
