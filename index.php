@@ -3,7 +3,7 @@
 
 echo "<h1>PDO!</h1>";
 $username = 'ad432';
-$password = 'changedforseciurity';
+$password = 'qhDUhaQM';
 $hostname = 'sql.njit.edu';
 
 $dsn = "mysql:host=$hostname;dbname=$username";
@@ -31,7 +31,7 @@ try{
     if($result->rowCount() > 0){
         echo "<table>";
             echo "<tr>";
-                echo "<th>id</th>";
+                echo "<th>SID</th>";
                 echo "<th>email</th>";
                 echo "<th>fname</th>";
                 echo "<th>lname</th>";
